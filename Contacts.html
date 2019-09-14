@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> My Contacts</title>
+</head>
+<body>
+  <h2>I am connected to following people</h2>
+  <ol type="i">
+    <li> Mark</li>
+    <li>Linus</li>
+  </ol>
+  <p> To Connect with me , please fill the following details</p>
+  <form class="" action="mailto:sgbarapatre@gmail.com" method="post" enctype="text/plain">
+    <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="first_name" value="John">
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="last_name" value="Doe">
+    </div>
+    <br>
+    <div>
+      <label for="emailId">Email id:</label>
+      <input type="email" id="emailId" name="email_id" value="example@gmail.com">
+    </div>
+    <br>
+    <div>
+      <label for="message">Description</label>
+      <textarea id="message" rows="10" cols="80"> Here goes my message</textarea>
+    </div>
+  </div>
+  <label>Date of Birth</label>
+  <input type="date">
+  <div>
+    <div>
+      <label>Gender:</label>
+      <br>
+      <label>Male</label>
+      <input type="radio">
+      <label>Female</label>
+      <input type="radio">
+    </div>
+    <div>
+      <label>Do you want to suscribe for our newsletter:</label>
+      <br>
+      <label>Yes</label>
+      <input type="checkbox">
+      <label>No</label>
+      <input type="checkbox">
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="password" id="password">
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+</html>
